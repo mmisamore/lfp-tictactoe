@@ -42,7 +42,7 @@ playRow move col (Row c1 c2 c3) =
 type family NextTurn (prev :: PreviousMoves) :: Mark where
   NextTurn (Cons 'X _ _ _) = 'O
   NextTurn (Cons 'O _ _ _) = 'X
-  NextTurn Empty         = 'X  -- assume X plays first 
+  NextTurn Empty           = 'X  -- assume X plays first 
 
 -- Given a sequence of previous moves, determine if a position has been played already
 type family Played (row :: CoordType) (col :: CoordType) (prev :: PreviousMoves) :: Bool where

@@ -39,4 +39,3 @@ test-suite lfp-tictactoe-test
 source-repository head
   type:     git
   location: https://github.com/githubuser/lfp-tictactoe
-
