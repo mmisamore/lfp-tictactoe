@@ -81,7 +81,7 @@ xPlay :: (NextTurn rep ~ 'X, Played row col rep ~ 'False) =>
   -> Board ('Cons 'X row col rep) 
 xPlay _ _ _ = Board 
 
--- Make a play on the board if player X is next and position is available
+-- Make a play on the board if player O is next and position is available
 oPlay :: (NextTurn rep ~ 'O, Played row col rep ~ 'False) => 
   CoordL row 
   -> CoordL col 
