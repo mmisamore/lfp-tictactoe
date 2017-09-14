@@ -9,7 +9,7 @@ Direct from Chris Penner's post:
 
 Additional stuff by me:
 * TypeLevel.hs: lift entire game board to the type level and show how to display it
-* Lib.hs: Consolidate "play" functions into single function that can statically enforce
+* Lib.hs: consolidate "play" functions into single function that can statically enforce
   alternating turns and prevent replays. Entire board is represented at the type level.
 
 To use this repo, first install the [Haskell Tool Stack](https://www.haskellstack.org).
